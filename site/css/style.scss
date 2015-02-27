@@ -59,14 +59,14 @@ body {
 	width: 100%;
 	height: 100%;
 	padding-bottom:14%;
-	background: url(../images/hero.png) bottom center no-repeat;
-	background-size: 80%;
+
 
 	@media screen and (min-width: $break-three) {
 		float: left;
 		width: 20%;
+		background: url(../images/hero.png) bottom center no-repeat;
+		background-size: 80%;
 	}
-
 
 	.my-info {
 		text-align: center;
@@ -278,6 +278,10 @@ ul {
 	@media screen and (min-width: $break-three) {
 		float: left;
 		width: 80%;
+	}
+
+	@media screen and (max-height: $break-two){
+		width: 100%;
 	}
 
 	.portfolio-item {
